@@ -1,0 +1,16 @@
+﻿Criar icons de Programas Instalados
+
+a:~$ cd .local/share/applications
+
+a:~/ .local/share/applications$ gedit NomeProgram.desktop
+ 
+                  [Desktop Entry]
+                  Version=1.0
+                  Type=Application
+                  Name= <Nomeprogram>
+                  Icon= <endereco/icon.png
+                  Exec= <"endereco/executavel" %f
+                  Comment= < comentarios > 
+                  Categories= < categorias >
+                  Terminal=false
+                

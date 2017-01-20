@@ -1,0 +1,24 @@
+Install GitHub
+
+a:~$ sudo apt-get install git
+
+a:~$ git config --global user.name "username"
+
+a:~$ git config --global user.email "email" 
+
+a:~$ git init Mytest
+
+a:~$ cd Mytext
+
+a:~$ gedit README
+     Texte: Hello
+
+a:~$ git add README
+
+a:~$ git commit -m "Comitando README"
+
+a:~$ git remote add origin https:github.com/username/repository.git
+
+a:~$ git push origin master
+
+

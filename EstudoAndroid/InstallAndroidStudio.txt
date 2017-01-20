@@ -1,0 +1,14 @@
+Install Android Studio
+
+a:~$ sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+
+a:~$ sudo apt-get update
+
+a:~$ sudo apt-get install ubuntu-make
+
+a:~$ umake android
+
+
+// Desinstalar
+
+a:~$ umake android --remove
