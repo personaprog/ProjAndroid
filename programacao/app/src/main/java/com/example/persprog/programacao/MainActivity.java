@@ -18,18 +18,17 @@ import com.example.persprog.programacao.cap3.Layout;
 import static java.security.AccessController.getContext;
 
 public class MainActivity extends Lifecycle {
-
+    private  final Context context = this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
            super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
            Button btnlayout =  (Button) findViewById(R.id.btn_Layout);
-
-            btnlayout.setOnClickListener(new View.OnClickListener() {
+           btnlayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent activelayout = new Intent(getContext(), Layout.class);
-                startActivity(activelayout);
+              Intent activelayout = new Intent(context, Layout.class);
+              startActivity(activelayout);
             }
         });
 
@@ -38,7 +37,7 @@ public class MainActivity extends Lifecycle {
         btnbundle.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent activebundle = new Intent(getContext(), Bundle_Exemp.class);
+           Intent activebundle = new Intent(context, Bundle_Exemp.class);
                 Bundle params = new Bundle();
                 params.putString("nome", TAG);
                 activebundle.putExtras(params);
@@ -50,8 +49,4 @@ public class MainActivity extends Lifecycle {
     }
 
 
-
-    private Context getContext(){
-        return this;
-    }
 }

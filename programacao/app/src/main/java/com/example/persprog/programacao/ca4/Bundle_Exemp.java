@@ -26,6 +26,7 @@ public class Bundle_Exemp extends Lifecycle{
         txbundle.setText(args.getString("nome"));
 
 
+
     }
 
 

@@ -16,60 +16,45 @@ public class Lifecycle extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i(TAG,getClassName()+".onCrete() Chamado: " + savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.i(TAG,getClassName()+".onRestart() Chamado: " );
 
     }
 
     @Override
     protected void onPostResume() {
         super.onPostResume();
-        Log.i(TAG,getClassName()+".onResume() Chamado: " );
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i(TAG,getClassName()+".onPause Chamado: " );
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-
-        Log.i(TAG,getClassName()+".onSaveInstanceState Chamado: " );
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i(TAG,getClassName()+".onStop Chamado: " );
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i(TAG,getClassName()+".onDestroy Chamado: " );
     }
-
-    private String getClassName(){
-        String s = getClass().getName();
-        return s.substring(s.lastIndexOf("."));
-    }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if(id == android.R.id.home){
             finish();
             return true;
-
         }
         return super.onOptionsItemSelected(item);
     }
