@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">programacao</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_out">Sair</string>
+    <string name="action_search">Search</string>
+    <string name="action_bundle">Bundle</string>
+    <string name="action_layout">Layout</string>
 </resources>
