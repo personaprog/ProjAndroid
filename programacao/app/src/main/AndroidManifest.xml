@@ -18,6 +18,14 @@
 
         <activity android:name=".cap3.Layout" android:label="Exemplo Layout" />
         <activity android:name=".ca4.Bundle_Exemp" android:label="Exemplo Bundle" />
+        <activity android:name=".cap6.ActFrameLayout" android:label="Exemplo FrameLayout" />
+        <activity android:name=".cap6.ActLinearLayout" android:label="Exemplo LinearLayout" />
+        <activity android:name=".cap6.ActTableLayout" android:label="Exemplo TableLayout shrinkColumns" />
+        <activity android:name=".cap6.ActTabelLayout1" android:label="Exemplo TableLayout strechColumns" />
+        <activity android:name=".cap6.ActGridLayout" android:label="Exemplo GridLayout" />
+        <activity android:name=".cap6.ActRelativeLayout" android:label="Exemplo RelativeLayout" />
+        <activity android:name=".cap6.ActScrollView" android:label="Exemplo ScrollView" />
+
     </application>
 
 </manifest>
