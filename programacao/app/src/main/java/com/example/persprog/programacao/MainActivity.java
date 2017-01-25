@@ -29,22 +29,19 @@ public class MainActivity extends ListActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] items = new String[] {"Bundle","FrameLayout","LinearLayout","TableLayout shrinkColumns","TableLayout strechColumns","GridLayout","RelativeLayout","ScrollView","textView","AutoComplete", "Sair"};
+        final  String[] items = new String[] {"Bundle","FrameLayout","LinearLayout","TableLayout shrinkColumns","TableLayout strechColumns","GridLayout","RelativeLayout","ScrollView","textView","AutoComplete", "Sair"};
         this.setListAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, items));
     }
-
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         try {
             switch (position) {
                 case 0:
-
                     Intent itbundle = new Intent(this, Bundle_Exemp.class);
                     Bundle params = new Bundle();
                     params.putString("nome", "Personaprog");
                     itbundle.putExtras(params);
                     startActivity(itbundle);
-
                     break;
                 case 1:
                     startActivity(new Intent(this,ActFrameLayout.class));
