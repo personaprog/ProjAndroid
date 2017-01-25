@@ -20,6 +20,8 @@ import com.example.persprog.programacao.cap6.ActRelativeLayout;
 import com.example.persprog.programacao.cap6.ActScrollView;
 import com.example.persprog.programacao.cap6.ActTabelLayout1;
 import com.example.persprog.programacao.cap6.ActTableLayout;
+import com.example.persprog.programacao.cap7.ActAutoComplete;
+import com.example.persprog.programacao.cap7.Acttextview;
 
 public class MainActivity extends ListActivity {
 
@@ -27,7 +29,7 @@ public class MainActivity extends ListActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] items = new String[] {"Bundle","FrameLayout","LinearLayout","TableLayout shrinkColumns","TableLayout strechColumns","GridLayout","RelativeLayout","ScrollView", "Sair"};
+        String[] items = new String[] {"Bundle","FrameLayout","LinearLayout","TableLayout shrinkColumns","TableLayout strechColumns","GridLayout","RelativeLayout","ScrollView","textView","AutoComplete", "Sair"};
         this.setListAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, items));
     }
 
@@ -66,6 +68,11 @@ public class MainActivity extends ListActivity {
                     startActivity(new Intent(this,ActScrollView.class));
                     break;
                 case 8:
+                    startActivity(new Intent(this, Acttextview.class));
+                case 9:
+                    startActivity(new Intent(this, ActAutoComplete.class));
+                    break;
+                case 10:
                    finish();
                     break;
                 default:

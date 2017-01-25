@@ -1,0 +1,7 @@
+#Tue Jan 24 23:26:10 BRST 2017
+base.0=/home/persprog/github/Proj/programacao/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_61732106d75d5cea3f428a43f0c8784a3e3fa9e3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/persprog/github/Proj/programacao/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4ba42d3165b343ac2208a142ed0384b64fb89e48/classes.dex
+base.1=/home/persprog/github/Proj/programacao/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4ba42d3165b343ac2208a142ed0384b64fb89e48
+file.0=/home/persprog/github/Proj/programacao/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_61732106d75d5cea3f428a43f0c8784a3e3fa9e3/classes.dex

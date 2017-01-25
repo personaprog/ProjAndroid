@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.persprog.programacao"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="25" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.persprog.programacao.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.persprog.programacao.cap3.Layout"
+            android:label="Exemplo Layout" />
+        <activity
+            android:name="com.example.persprog.programacao.ca4.Bundle_Exemp"
+            android:label="Exemplo Bundle" />
+        <activity
+            android:name="com.example.persprog.programacao.cap6.ActFrameLayout"
+            android:label="Exemplo FrameLayout" />
+        <activity
+            android:name="com.example.persprog.programacao.cap6.ActLinearLayout"
+            android:label="Exemplo LinearLayout" />
+        <activity
+            android:name="com.example.persprog.programacao.cap6.ActTableLayout"
+            android:label="Exemplo TableLayout shrinkColumns" />
+        <activity
+            android:name="com.example.persprog.programacao.cap6.ActTabelLayout1"
+            android:label="Exemplo TableLayout strechColumns" />
+        <activity
+            android:name="com.example.persprog.programacao.cap6.ActGridLayout"
+            android:label="Exemplo GridLayout" />
+        <activity
+            android:name="com.example.persprog.programacao.cap6.ActRelativeLayout"
+            android:label="Exemplo RelativeLayout" />
+        <activity
+            android:name="com.example.persprog.programacao.cap6.ActScrollView"
+            android:label="Exemplo ScrollView" />
+        <activity
+            android:name="com.example.persprog.programacao.cap7.Acttextview"
+            android:label="Exemplo Textview" />
+        <activity
+            android:name="com.example.persprog.programacao.cap7.ActAutoComplete"
+            android:label="Exemplo AutoCompleteTextview" />
+    </application>
+
+</manifest>

@@ -25,6 +25,8 @@
         <activity android:name=".cap6.ActGridLayout" android:label="Exemplo GridLayout" />
         <activity android:name=".cap6.ActRelativeLayout" android:label="Exemplo RelativeLayout" />
         <activity android:name=".cap6.ActScrollView" android:label="Exemplo ScrollView" />
+        <activity android:name=".cap7.Acttextview" android:label="Exemplo Textview" />
+        <activity android:name=".cap7.ActAutoComplete" android:label="Exemplo AutoCompleteTextview" />
 
     </application>
 

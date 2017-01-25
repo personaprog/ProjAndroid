@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/persprog/github/Proj/programacao/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/home/persprog/github/Proj/programacao/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/persprog/github/Proj/programacao/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_refresh.png",
+        "source": "/home/persprog/github/Proj/programacao/app/src/main/res/drawable-xxhdpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/home/persprog/github/Proj/programacao/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_share.png",
+        "source": "/home/persprog/github/Proj/programacao/app/src/main/res/drawable-xxhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/home/persprog/github/Proj/programacao/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_search.png",
+        "source": "/home/persprog/github/Proj/programacao/app/src/main/res/drawable-xxhdpi/ic_action_search.png"
+    }
+]

@@ -5,4 +5,8 @@
     <string name="action_search">Search</string>
     <string name="action_bundle">Bundle</string>
     <string name="action_layout">Layout</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="estado">Estado</string>
 </resources>
