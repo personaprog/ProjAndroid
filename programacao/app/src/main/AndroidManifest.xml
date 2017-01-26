@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.persprog.programacao">
-
+<uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,22 +11,30 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Ac_ActionBar.ActMenuMain" android:label="Exemplo MenuMain" />
+        <activity android:name=".Ac_ActionBar.ActTabListener" android:label="Exemplo TabListener" />
+        <activity android:name=".Ab_Basico.Layout" android:label="Exemplo Layout" />
+        <activity android:name=".Ab_Basico.ActBundle" android:label="Exemplo Bundle" />
+        <activity android:name=".Ab_Basico.ActGetBundle" android:label="Exemplo GetBundle" />
+        <activity android:name=".Ad_Layout.ActFrameLayout" android:label="Exemplo FrameLayout" />
+        <activity android:name=".Ad_Layout.ActLinearLayout" android:label="Exemplo LinearLayout" />
+        <activity android:name=".Ad_Layout.ActTableLayout" android:label="Exemplo TableLayout shrinkColumns" />
+        <activity android:name=".Ad_Layout.ActTabelLayout1" android:label="Exemplo TableLayout strechColumns" />
+        <activity android:name=".Ad_Layout.ActGridLayout" android:label="Exemplo GridLayout" />
+        <activity android:name=".Ad_Layout.ActRelativeLayout" android:label="Exemplo RelativeLayout" />
+        <activity android:name=".Ad_Layout.ActScrollView" android:label="Exemplo ScrollView" />
+        <activity android:name=".Ae_View.Acttextview" android:label="Exemplo Textview" />
+        <activity android:name=".Ae_View.ActAutoComplete" android:label="Exemplo AutoCompleteTextview" />
+        <activity android:name=".Ae_View.ActButton" android:label="Exemplo imageButton" />
+        <activity android:name=".Ae_View.ActCheckBoxToggleButton" android:label="Exemplo Checkbox e toggleButton" />
+        <activity android:name=".Ae_View.ActRadioButton" android:label="Exemplo RadioButton" />
+        <activity android:name=".Ae_View.ActSpinner" android:label="Exemplo Spinner" />
+        <activity android:name=".Ae_View.ActDialogProgress" android:label="Exemplo DialogProgress" />
+        <activity android:name=".Ae_View.ActProgressBar" android:label="Exemplo ProgressBar" />
 
-        <activity android:name=".cap3.Layout" android:label="Exemplo Layout" />
-        <activity android:name=".ca4.Bundle_Exemp" android:label="Exemplo Bundle" />
-        <activity android:name=".cap6.ActFrameLayout" android:label="Exemplo FrameLayout" />
-        <activity android:name=".cap6.ActLinearLayout" android:label="Exemplo LinearLayout" />
-        <activity android:name=".cap6.ActTableLayout" android:label="Exemplo TableLayout shrinkColumns" />
-        <activity android:name=".cap6.ActTabelLayout1" android:label="Exemplo TableLayout strechColumns" />
-        <activity android:name=".cap6.ActGridLayout" android:label="Exemplo GridLayout" />
-        <activity android:name=".cap6.ActRelativeLayout" android:label="Exemplo RelativeLayout" />
-        <activity android:name=".cap6.ActScrollView" android:label="Exemplo ScrollView" />
-        <activity android:name=".cap7.Acttextview" android:label="Exemplo Textview" />
-        <activity android:name=".cap7.ActAutoComplete" android:label="Exemplo AutoCompleteTextview" />
 
     </application>
 

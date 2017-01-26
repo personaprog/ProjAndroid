@@ -9,4 +9,7 @@
     <string name="senha">Senha</string>
     <string name="login">Login</string>
     <string name="estado">Estado</string>
+    <string name="ConceitoBundle">A Classe android.os.Bundle é utilizada para passar parâmetro usando chave de valor. </string>
+    <string name="CodigoBundle1">Enviar: Intent intent = new Intent(this,exemplo.class); intent.putExtra("nome", "PersonaProg"); startActivity(intent); </string>
+    <string name="CodigoBundle2">Receber: Intent intent =getIntent(); intent.StringExtra("nome"); </string>
 </resources>
