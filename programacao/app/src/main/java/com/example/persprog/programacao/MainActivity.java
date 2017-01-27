@@ -30,6 +30,11 @@ import com.example.persprog.programacao.Ae_View.ActAutoComplete;
 import com.example.persprog.programacao.Ae_View.ActButton;
 import com.example.persprog.programacao.Ae_View.ActCheckBoxToggleButton;
 import com.example.persprog.programacao.Ae_View.ActDialogProgress;
+import com.example.persprog.programacao.Ae_View.ActGallery;
+import com.example.persprog.programacao.Ae_View.ActGridView;
+import com.example.persprog.programacao.Ae_View.ActInflater;
+import com.example.persprog.programacao.Ae_View.ActListView;
+import com.example.persprog.programacao.Ae_View.ActListViewCustom;
 import com.example.persprog.programacao.Ae_View.ActProgressBar;
 import com.example.persprog.programacao.Ae_View.ActRadioButton;
 import com.example.persprog.programacao.Ae_View.ActSpinner;
@@ -68,6 +73,11 @@ public class MainActivity extends Lifecycle {
                 "Spinner",
                 "DialogProgress",
                 "ProgressBar",
+                "Inflater",
+                "ListView",
+                "ListViewCustom",
+                "GridView",
+                "Galeria de Fotos",
                 "Sair"
         };
 
@@ -136,6 +146,21 @@ public class MainActivity extends Lifecycle {
                             startActivity(new Intent(context, ActProgressBar.class));
                             break;
                         case 18:
+                            startActivity(new Intent(context, ActInflater.class));
+                            break;
+                        case 19:
+                            startActivity(new Intent(context, ActListView.class));
+                            break;
+                        case 20:
+                            startActivity(new Intent(context, ActListViewCustom.class));
+                            break;
+                        case 21:
+                            startActivity(new Intent(context, ActGridView.class));
+                            break;
+                        case 22:
+                            startActivity(new Intent(context, ActGallery.class));
+                            break;
+                        case 23:
                             finish();
                             break;
                         default:

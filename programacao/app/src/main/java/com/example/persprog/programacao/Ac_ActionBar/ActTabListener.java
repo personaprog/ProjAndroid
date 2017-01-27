@@ -1,16 +1,10 @@
 package com.example.persprog.programacao.Ac_ActionBar;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.example.persprog.programacao.Aa_Activity.Lifecycle;
-import com.example.persprog.programacao.Ab_Basico.Layout;
-import com.example.persprog.programacao.R;
 
 /**
  * Created by persprog on 25/01/17.

@@ -19,16 +19,10 @@ public class Lifecycle extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
-
     }
 
     @Override
-    protected void onRestart() {
-        super.onRestart();
-
-    }
+    protected void onRestart() {super.onRestart();}
 
     @Override
     protected void onPostResume() {

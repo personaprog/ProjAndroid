@@ -8,7 +8,6 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.example.persprog.programacao.Aa_Activity.Lifecycle;
-import com.example.persprog.programacao.Ab_Basico.Layout;
 import com.example.persprog.programacao.R;
 
 /**
@@ -35,11 +34,8 @@ public class ActMenuMain extends Lifecycle {
 
 
         int id = item.getItemId();
-        if (id == R.id.action_layout) {
-            Intent layoutpage = new Intent(this, Layout.class);
-            startActivity(layoutpage);
-            return true;
-        } else if (id == R.id.action_bundle) {
+
+         if (id == R.id.action_bundle) {
             Toast.makeText(this,"Bunble",Toast.LENGTH_SHORT);
             return true;
         } else if (id == R.id.action_out) {

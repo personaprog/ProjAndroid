@@ -16,7 +16,6 @@
         </activity>
         <activity android:name=".Ac_ActionBar.ActMenuMain" android:label="Exemplo MenuMain" />
         <activity android:name=".Ac_ActionBar.ActTabListener" android:label="Exemplo TabListener" />
-        <activity android:name=".Ab_Basico.Layout" android:label="Exemplo Layout" />
         <activity android:name=".Ab_Basico.ActBundle" android:label="Exemplo Bundle" />
         <activity android:name=".Ab_Basico.ActGetBundle" android:label="Exemplo GetBundle" />
         <activity android:name=".Ad_Layout.ActFrameLayout" android:label="Exemplo FrameLayout" />
@@ -34,6 +33,11 @@
         <activity android:name=".Ae_View.ActSpinner" android:label="Exemplo Spinner" />
         <activity android:name=".Ae_View.ActDialogProgress" android:label="Exemplo DialogProgress" />
         <activity android:name=".Ae_View.ActProgressBar" android:label="Exemplo ProgressBar" />
+        <activity android:name=".Ae_View.ActInflater" android:label="Exemplo Inflater" />
+        <activity android:name=".Ae_View.ActListView" android:label="Exemplo ListView" />
+        <activity android:name=".Ae_View.ActListViewCustom" android:label="Exemplo ListViewCustom" />
+        <activity android:name=".Ae_View.ActGridView" android:label="Exemplo GridView" />
+        <activity android:name=".Ae_View.ActGallery" android:label="Exemplo Galeria de Fotos" />
 
 
     </application>
