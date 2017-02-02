@@ -14,30 +14,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ac_ActionBar.ActMenuMain" android:label="Exemplo MenuMain" />
-        <activity android:name=".Ac_ActionBar.ActTabListener" android:label="Exemplo TabListener" />
-        <activity android:name=".Ab_Basico.ActBundle" android:label="Exemplo Bundle" />
-        <activity android:name=".Ab_Basico.ActGetBundle" android:label="Exemplo GetBundle" />
-        <activity android:name=".Ad_Layout.ActFrameLayout" android:label="Exemplo FrameLayout" />
-        <activity android:name=".Ad_Layout.ActLinearLayout" android:label="Exemplo LinearLayout" />
-        <activity android:name=".Ad_Layout.ActTableLayout" android:label="Exemplo TableLayout shrinkColumns" />
-        <activity android:name=".Ad_Layout.ActTabelLayout1" android:label="Exemplo TableLayout strechColumns" />
-        <activity android:name=".Ad_Layout.ActGridLayout" android:label="Exemplo GridLayout" />
-        <activity android:name=".Ad_Layout.ActRelativeLayout" android:label="Exemplo RelativeLayout" />
-        <activity android:name=".Ad_Layout.ActScrollView" android:label="Exemplo ScrollView" />
-        <activity android:name=".Ae_View.Acttextview" android:label="Exemplo Textview" />
-        <activity android:name=".Ae_View.ActAutoComplete" android:label="Exemplo AutoCompleteTextview" />
-        <activity android:name=".Ae_View.ActButton" android:label="Exemplo imageButton" />
-        <activity android:name=".Ae_View.ActCheckBoxToggleButton" android:label="Exemplo Checkbox e toggleButton" />
-        <activity android:name=".Ae_View.ActRadioButton" android:label="Exemplo RadioButton" />
-        <activity android:name=".Ae_View.ActSpinner" android:label="Exemplo Spinner" />
-        <activity android:name=".Ae_View.ActDialogProgress" android:label="Exemplo DialogProgress" />
-        <activity android:name=".Ae_View.ActProgressBar" android:label="Exemplo ProgressBar" />
-        <activity android:name=".Ae_View.ActInflater" android:label="Exemplo Inflater" />
-        <activity android:name=".Ae_View.ActListView" android:label="Exemplo ListView" />
-        <activity android:name=".Ae_View.ActListViewCustom" android:label="Exemplo ListViewCustom" />
-        <activity android:name=".Ae_View.ActGridView" android:label="Exemplo GridView" />
-        <activity android:name=".Ae_View.ActGallery" android:label="Exemplo Galeria de Fotos" />
+        <activity android:name=".Ac_ActionBar.ActMenuMain" android:label="MenuMain" />
+        <activity android:name=".Ac_ActionBar.ActTabListener" android:label="TabListener" />
+        <activity android:name=".Ab_Basico.ActBundle" android:label="Bundle" />
+        <activity android:name=".Ab_Basico.ActGetBundle" android:label="GetBundle" />
+        <activity android:name=".Ad_Layout.ActFrameLayout" android:label="FrameLayout" />
+        <activity android:name=".Ad_Layout.ActLinearLayout" android:label="LinearLayout" />
+        <activity android:name=".Ad_Layout.ActTableLayout" android:label="TableLayout shrinkColumns" />
+        <activity android:name=".Ad_Layout.ActTabelLayout1" android:label="TableLayout strechColumns" />
+        <activity android:name=".Ad_Layout.ActGridLayout" android:label="GridLayout" />
+        <activity android:name=".Ad_Layout.ActRelativeLayout" android:label="RelativeLayout" />
+        <activity android:name=".Ad_Layout.ActScrollView" android:label="ScrollView" />
+        <activity android:name=".Ae_View.Frgtextview" android:label="Textview" />
+        <activity android:name=".Ae_View.ActAutoComplete" android:label="AutoCompleteTextview" />
+        <activity android:name=".Ae_View.ActButton" android:label="imageButton" />
+        <activity android:name=".Ae_View.ActCheckBoxToggleButton" android:label="Checkbox e toggleButton" />
+        <activity android:name=".Ae_View.ActRadioButton" android:label="RadioButton" />
+        <activity android:name=".Ae_View.FrgSpinner" android:label="Spinner" />
+        <activity android:name=".Ae_View.FrgDialogProgress" android:label="DialogProgress" />
+        <activity android:name=".Ae_View.ActProgressBar" android:label="ProgressBar" />
+        <activity android:name=".Ae_View.ActInflater" android:label="Inflater" />
+        <activity android:name=".Ae_View.ActListView" android:label="ListView" />
+        <activity android:name=".Ae_View.FrgGallery" android:label="Galeria de Fotos" />
+        <activity android:name=".Ag_Fragment.ActFragmentPrincipal" android:label="Fragment Tab (Deprecated)" />
+        <activity android:name=".Ag_Fragment.ActFragmentViewPager" android:label="Fragment ViewPager" />
 
 
     </application>

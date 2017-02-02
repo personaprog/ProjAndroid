@@ -10,11 +10,7 @@ import android.widget.BaseAdapter;
 
 import android.widget.TextView;
 
-import com.example.persprog.programacao.Ae_View.ActListViewCustom;
 import com.example.persprog.programacao.R;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by persprog on 26/01/17.

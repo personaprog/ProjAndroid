@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
+    style="@style/linearfragment"
     >
+    <TextView
+
+        android:text="@string/frgGridview"
+        style="@style/tituloexemplo"/>
 <GridView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,8 +14,10 @@
     android:verticalSpacing="10dip"
     android:horizontalSpacing="10dip"
     android:numColumns="auto_fit"
-    android:columnWidth="40dip"
+    android:columnWidth="100dp"
+
     android:id="@+id/gridview1"
+
 
     />
 </LinearLayout>

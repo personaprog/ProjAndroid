@@ -12,4 +12,7 @@
     <string name="ConceitoBundle">A Classe android.os.Bundle é utilizada para passar parâmetro usando chave de valor. </string>
     <string name="CodigoBundle1">Enviar: Intent intent = new Intent(this,exemplo.class); intent.putExtra("nome", "PersonaProg"); startActivity(intent); </string>
     <string name="CodigoBundle2">Receber: Intent intent =getIntent(); intent.StringExtra("nome"); </string>
+
+    <string name="frgListview">ListView Custom</string>
+    <string name="frgGridview">Grid View</string>
 </resources>

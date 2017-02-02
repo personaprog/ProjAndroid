@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:stretchColumns="1" android:padding="16dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/linearfragment"
+android:id="@+id/txlinear"
+    >
 
-    <TableRow>
-        <TextView android:text="@string/usuario" android:padding="3dip" />
-        <EditText android:id="@+id/campoologim" android:padding="3dip" android:inputType="text" />
 
-    </TableRow>
-    <TableRow>
-        <TextView android:text="@string/senha"  />
-        <EditText android:id="@+id/camposenha"  android:inputType="textPassword" />
-    </TableRow>
-    <TableRow>
-        <Button android:id="@+id/btnlogin" android:text="@string/login" />
-    </TableRow>
-</TableLayout>
+    <TextView android:text="TextView" style="@style/tituloexemplo" />
+
+        <TextView android:text="@string/usuario" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="3dip" />
+        <EditText android:id="@+id/campoologim"  android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="3dip" android:inputType="text" />
+
+
+
+        <TextView android:text="@string/senha"  android:layout_width="match_parent" android:layout_height="wrap_content"  />
+        <EditText android:id="@+id/camposenha"  android:layout_width="match_parent" android:layout_height="wrap_content"  android:inputType="textPassword" />
+
+        <Button android:id="@+id/btnlogin"  android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/login" />
+
+</LinearLayout>

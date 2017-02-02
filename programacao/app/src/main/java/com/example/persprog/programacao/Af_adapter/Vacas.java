@@ -50,6 +50,14 @@ public class Vacas {
         vacas.add(new Vacas("Vaca2", R.drawable.cow2));
         vacas.add(new Vacas("Vaca3", R.drawable.cow3));
         vacas.add(new Vacas("Vaca4", R.drawable.cow4));
+        vacas.add(new Vacas("Vaca5", R.drawable.cow1));
+        vacas.add(new Vacas("Vaca6", R.drawable.cow2));
+        vacas.add(new Vacas("Vaca7", R.drawable.cow3));
+        vacas.add(new Vacas("Vaca8", R.drawable.cow4));
+        vacas.add(new Vacas("Vaca9", R.drawable.cow1));
+        vacas.add(new Vacas("Vaca10", R.drawable.cow2));
+        vacas.add(new Vacas("Vaca11", R.drawable.cow3));
+        vacas.add(new Vacas("Vaca12", R.drawable.cow4));
         return vacas;
     }
 }
