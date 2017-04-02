@@ -1,0 +1,38 @@
+
+# Rede Cabeada
+
+nano /etc/network/interfaces"  >> /etc/network/interfaces
+echo "auto eth0"  >> /etc/network/interfaces
+echo "iface eth0 inet static"  >> /etc/network/interfaces
+echo "address 192.198.0.1" >> /etc/network/interfaces
+echo "netmask 255.255.255.0" >> /etc/network/interfaces
+echo "geteway 192.168.0.100" >> /etc/network/interfaces
+echo "network 192.168.0.0"  >> /etc/network/interfaces
+echo "broadcast 192.168.0.255"  >> /etc/network/interfaces
+
+
+
+
+
+
+#source /etc/network/interfaces.d/*
+
+
+#nano /etc/network/interfaces
+
+# The loopback network interface
+
+ 
+echo "auto wlan0" >> /etc/network/interfaces
+echo "iface wlan0 inet dhcp" >> /etc/network/interfaces
+echo "wpa-ssid nomerede" >> /etc/network/interfaces
+echo "wpa-psk  senha" >> /etc/network/interfaces
+ 
+
+
+
+
+echo "ameserver 200.165.132.147" >> /etc/resolf.con
+echo "nameserver 200.165.132.124"  >> /etc/resolf.con
+
+service  networking restart

@@ -1,0 +1,88 @@
+A lista de repositorios estão no asquivo  ls /etc/apt/sources.list e tambem dentro da pasta ls /etc/apt/sources.list.d 
+
+sources.list
+### Repositórios padrão.
+deb http://http.debian.net/debian/ jessie main non-free contrib
+deb-src http://http.debian.net/debian/ jessie main non-free contrib
+
+### Atualizações de Segurança.
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+### Volatile (softwares atualizados com frequência, Clamav, etc)
+deb http://http.debian.net/debian/ jessie-updates main contrib non-free
+#deb-src http://http.debian.net/debian/ jessie-updates main contrib non-free
+
+### Backports (no momento)
+deb http://http.debian.net/debian/ jessie-backports main contrib non-free
+#deb-src http://http.debian.net/debian/ jessie-backports main contrib non-free
+
+Copie todo o bloco acima, abra um terminal e, com o Nano, modifique o arquivo /etc/apt/sources.list:
+
+# nano /etc/apt/sources.list
+
+Cole o texto e tecle Ctrl+o e Ctrl+x, para salvar e sair.
+
+Em seguida, execute:
+
+# apt-get update
+# apt-get install debian-archive-keyring
+# apt-get update
+# apt-get dist-upgrade
+
+# apt-get -t jessie-backports dist-upgrade
+
+* O último comando serve para instalar pacotes mais novos, caso já haja algum lá no Debian Backports.
+
+sources.list de Extras
+Agora, veremos a lista de repositórios Extras para o Debian Jessie. O conteúdo desta dica, praticamente, é o mesmo da dica para o Debian Wheezy, publicada em meu Blog:
+
+    https://edpsblog.wordpress.com/2015/02/06/repositorios-extras-para-o-debian-wheezy/
+
+
+Crie um arquivos chamado extras.list na pasta /etc/apt/sources.list.d com o nano:
+
+# nano /etc/apt/sources.list.d/extras.list
+
+Cole o conteúdo abaixo:
+
+### deb-multimedia.
+### Chave GPG: apt-get update && apt-get install deb-multimedia-keyring
+deb http://www.deb-multimedia.org jessie main non-free
+deb http://www.deb-multimedia.org jessie-backports main
+
+### Google Chrome.
+### Chave GPG: wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+deb http://dl.google.com/linux/deb/ stable main
+
+### MEGAsync (MEGA Uploader).
+### Chave GPG: wget -O - https://mega.co.nz/linux/MEGAsync/Debian_7.0/Release.key | apt-key add -
+deb http://mega.co.nz/linux/MEGAsync/Debian_7.0/ ./
+
+### Opera Web Browser.
+### Chave GPG: wget -O - http://deb.opera.com/archive.key | apt-key add -
+deb http://deb.opera.com/opera/ stable non-free
+
+### Oracle VM VirtualBox.
+### Chave GPG: wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | apt-key add -
+deb http://download.virtualbox.org/virtualbox/debian/ wheezy contrib
+
+### Tor Project.
+### Chave GPG: gpg --keyserver hkp://subkeys.pgp.net --recv-keys 219EC810 && gpg --export 219EC810 | apt-key add -
+deb http://deb.torproject.org/torproject.org wheezy main
+
+### Vivaldi Browser.
+deb http://repo.vivaldi.com/archive/deb/ stable main
+
+
+Salve e feche o arquivo com Ctrl+o e Ctrl+x. E caso tenha interesse em utilizar todos os repositórios listados acima, execute:
+
+# apt-get update
+# apt-get install deb-multimedia-keyring
+# wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+# wget -O - https://mega.co.nz/linux/MEGAsync/Debian_7.0/Release.key | apt-key add -
+# wget -O - http://deb.opera.com/archive.key | apt-key add -
+# wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | apt-key add -
+# gpg --keyserver hkp://subkeys.pgp.net --recv-keys 219EC810 && gpg --export 219EC810 | apt-key add -
+# apt-get update
+

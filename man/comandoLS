@@ -1,0 +1,44 @@
+Exibe arquivos e diretórios do dirétorio sem arquivos ocultos:
+  persprog@persprog-Comp:~$ ls
+
+Exibe o conteúdo da pasta em forma de lista:
+  persprog@persprog-Comp:~$ ls -l
+
+Exibe arquivos e diretórios na ordem em que foram editados
+  persprog@persprog-Comp:~$ ls -t
+
+Exibe arquivo e diretórios na ordem reversa
+  persprog@persprog-Comp:~$ ls -r
+
+Exibe arquivo e diretórios por tamho
+  persprog@persprog-Comp:~$ ls -s
+
+Exibe cada arquivo e diretórios em uma linha diferente
+  persprog@persprog-Comp:~$ ls -1
+
+Exibe os arquivos e diretórios por com os tamanhos dos arquivos escritos com a Unidade
+  persprog@persprog-Comp:~$ ls -lh
+
+Exibe apenas diretorios:
+  persprog@persprog-Comp:~$ ls -d */
+
+Listar só removendo a onome do proprietário do arquivo
+  persprog@persprog-Comp:~$ ls -g
+
+Listar só removendo a o nome do grupo do arquivo
+  persprog@persprog-Comp:~$ ls -G
+
+Exibe os arquivos e diretórios separandos com uma virgula
+  persprog@persprog-Comp:~$ ls -m
+
+Exibe os arquivos e diretórios, exibindo o caminho completo
+  persprog@persprog-Comp:~$ ls -d $PWD/*
+
+
+
+  
+
+
+
+
+

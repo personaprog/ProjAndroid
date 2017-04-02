@@ -1,0 +1,52 @@
+# Agendando Tarefas com cron e atd
+# O cron é o daemon responsável por executar comandos agendados 
+#Em um sistema Unix, muitas tarefas são agendadas para execução #regular:
+
+#    rotacionando os logs;
+#    atualizando o banco de dados para o programa locate;
+#    cópias de segurança;
+#    scripts de manutenção (como os de limpeza de arquivos 
+#   temporários). 
+
+#Por padrão, todos os usuários podem agendar a execução de tarefas. #Cada usuário tem, assim, seu próprio crontab no arquivo:
+#  /var/spool/cron/crontabs/usuário).
+
+#    programas no diretório /etc/cron.hourly/ uma vez por hora;
+#    programas no /etc/cron.daily/ uma vez por dia;
+#    programas no /etc/cron.weekly/ uma vez por semana;
+#    programas no /etc/cron.monthly/ uma vez por mês. 
+
+
+#    @yearly: uma vez por ano (Janeiro 1, às 00:00);
+#    @monthly: um vez por mês (o primeiro dia do mês, às 00:00);
+#    @weekly: uma vez por semana (Domingo às 00:00);
+#    @daily: uma vez por dia (às 00:00);
+#    @hourly: uma vez por hora (no início de cada hora). 
+
+#    o valor para o minuto (números de 0 à 59);
+#    o valor para a hora (de 0 à 23);
+#    o valor para o dia do mês (de 1 à 31);
+#    o valor para o mês (de 1 à 12);
+#    o valor para o dia da semana (a partir de 0 até 7, 1 
+#Exemplo 9.2. Arquivo de exemplo crontab
+
+#Format
+#min hour day mon dow user command
+
+# Download data every night at 7:25 pm
+ 25  19   *   *   *  root  $HOME/bin/get.pl
+
+# 8:00 am, on weekdays  (Monday through Friday)
+ 00  08   *   *   1-5 root $HOME/bin/dosomething
+
+# Restart the IRC proxy after each reboot
+#@reboot root /usr/bin/dircproxy
+
+#$ at 09:00 27.07.15 <<END
+#> echo "Don't forget to wish a Happy Birthday to Raphaël!" \
+#>   | mail lolando@debian.org
+#> END
+
+#$ atq
+retorna Tarefas Agendadas
+

@@ -1,0 +1,12 @@
+#apt-get install openjdk-7-jdk
+#mkdir /opt/android
+cd /opt/android
+wget  https://dl.google.com/android/repository/tools_r25.2.3-linux.zip
+unzip tools_r25.2.3-linux.zip
+cd tools
+./android update sdk --no-ui
+echo "export PATH=${PATH}:$HOME/sdk/android/platform-tools:$HOME/sdk/android/tools:$HOME/sdk/android/build-tools/25.0.1/" >> /home/persona/.bashrc
+source /home/persona/.bahrc
+#apt-get install libc6:i386 libstdc++6:i386
+# aapt
+#apt-get install zlib1g:i386

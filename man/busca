@@ -1,0 +1,8 @@
+Buscar texto nos arquivos
+  r -- recursivo
+  i -- maiuscula e minuscula
+	grep -ri texto ./
+
+Procurar arquivo
+	find ./ -name *.java
+

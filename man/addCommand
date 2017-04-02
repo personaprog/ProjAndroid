@@ -1,0 +1,8 @@
+COMO CRIAR MEUS COMANDOS?
+
+	persprog@persprog-Comp:~$  sudo gedit ~/.bashrc
+  	// alias nome_apelido=’comando com parâmetros‘
+
+	persprog@persprog-Comp:~$  source ~/.bashrc
+
+echo "alias apelido="command" >> ~/bachrc	

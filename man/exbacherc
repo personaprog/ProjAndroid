@@ -1,0 +1,1 @@
+export APP=/opt/tinyos-2.x/apps %% sudo mv /home/trabalho/exbacher ./

@@ -1,0 +1,4 @@
+echo "deb http://dl.google.com/linux/deb/ stable main"  >> /etc/apt/sources.list
+apt-get update
+apt-get install google-chrome-stable
+

@@ -1,0 +1,42 @@
+	rm -Rf /usr/share/applications/eclipse.desktop
+
+Passo 3. Confira se o seu sistema é de 32 bits ou 64 bits, para isso, use o seguinte comando no terminal:
+
+	uname -m
+
+Passo 4. Se seu sistema é de 32 bits, use o comando abaixo. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve o arquivo com o nome eclipse.tar.gz;
+
+	wget http://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/neon/R/eclipse-jee-neon-R-linux-gtk.tar.gz -O eclipse.tar.gz
+
+Passo 5. Se seu sistema é de 64 bits, use o comando abaixo. Se o link estiver desatualizado, acesse essa página, baixe a última versão e salve o arquivo com o nome eclipse.tar.gz;
+
+	wget http://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/neon/R/eclipse-jee-neon-R-linux-gtk-x86_64.tar.gz -O eclipse.tar.gz
+
+	
+Passo 6. Depois de baixar, execute o comando abaixo para descomprimir o pacote baixado, para a pasta /opt/;
+	
+22sudo tar -zxvf eclipse.tar.gz -C /opt/
+
+Passo 7. Renomeie a pasta criada. Se ao executar o comando abaixo ocorrer um erro com a mensagem iniciando com “mv: é impossível sobrescrever o não-diretório”, pule este passo;
+
+sudo mv /opt/eclipse*/ /opt/eclipse
+
+Passo 8. Baixe e salve o ícone do programa na pasta criada;
+
+sudo wget https://dl2.macupdate.com/images/icons128/11662.png -O /opt/eclipse/eclipse.png
+
+Passo 9. Se seu ambiente gráfico atual suportar, crie um lançador para o programa, executando o comando abaixo;
+
+echo -e '[Desktop Entry]\n Version=1.0\n Name=eclipse\n Exec=/opt/eclipse/eclipse\n Icon=/opt/eclipse/eclipse.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/eclipse.desktop
+
+Pronto! Agora, quando quiser iniciar o programa, digite eclipse no Dash (ou em um terminal, seguido da tecla TAB).
+
+Já se a sua distribuição suportar, coloque o atalho na sua área de trabalho usando o gerenciador de arquivos do sistema ou o comando abaixo, e use-o para iniciar o programa.
+
+sudo chmod +x /usr/share/applications/eclipse.desktop
+
+cp /usr/share/applications/eclipse.desktop  ~/Área\ de\ Trabalho/
+
+Se seu sistema estiver em inglês, use este comando para copiar o atalho para sua área de ':
+
+cp /usr/share/applications/eclipse.desktop

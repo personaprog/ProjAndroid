@@ -1,0 +1,17 @@
+du --> Mostra a lista de diretórios e quanto espaço cada um ocupa
+sort --> Ordena por tamanho do maior para o menor 
+
+	persona@persona-prog:~$  du | sort -nr
+
+
+
+Conta o número de arquivos que possui o o diretório e os subdiretórios
+
+	persona@persona-prog:~$  sudo find ./ -type f -print | wc -l
+
+
+
+mostra os 10 arquivos mais recentes no riretorio atual
+
+	persona@persona-prog:~$ ls -lt | head
+

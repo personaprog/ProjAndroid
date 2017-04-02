@@ -1,0 +1,20 @@
+nano scriptpessoal
+
+#!/bin/bash      
+
+#on displays the actual folder name      
+echo "the folder is 'pwd'"      
+
+#then the rest of the files      
+echo "The folder which contains files are 'ls'"
+
+
+
+
+sudo chmod +x scriptpessoal
+
+
+sudo scriptpessoal /usr/bin/
+
+root@prog:/home/persona# echo "/opt/chrome/google-chrome" > /usr/bin/chrome
+

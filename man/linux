@@ -1,0 +1,14 @@
+
+#Bash Shell
+
+#Edite o arquivo de inicialização (~/.bashrc)
+
+    PATH=/usr/local/jdk1.8.0/bin:$PATH
+    export PATH
+    % . /.profile
+#Edite o arquivo de inicialização (~/.cshrc)
+    set path=(/usr/local/jdk1.8.0/bin $path)
+    % source ~/.cshrc
+ 
+
+

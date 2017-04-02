@@ -1,0 +1,20 @@
+#gnome
+# Completo com todos os pacotes adicionais
+apt-get install gnome
+
+# Intace grafica sem pacotes adicionais
+
+apt-get install gdm3
+# ou
+apt-get install xorg
+# ou
+apt-get install gnome--core
+
+# kde
+apt-get install kde-standart
+
+
+# xfce4
+apt-get install xfce4
+
+apt-get install xfce4-goodies

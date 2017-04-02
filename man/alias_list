@@ -1,0 +1,6 @@
+alias adb='/opt/utils/SDK/platform-tools/adb'
+alias android='/opt/utils/SDK/tools/android'
+alias androidadm='sudo /opt/utils/SDK/tools/android'
+alias emulator='/opt/utils/SDK/tools/emulator'
+export ANDROID_SDK_ROOT=/opt/utils/SDK/
+export ANDROID_HOME=/opt/utils/SDK

@@ -1,0 +1,12 @@
+Converter Imagem: 
+	persprog@persprog-Comp:~$ sudo convert paizagem.png -resize 1280x768! paizagem.png 
+
+
+
+
+
+
+
+	
+
+

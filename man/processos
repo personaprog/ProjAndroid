@@ -1,0 +1,5 @@
+Listar processos
+  persprog@persprog-Comp:~$ ps -aux
+
+Listar processos que possuem 'ink' no Nome	
+  persprog@persprog-Comp:~$ ps -aux | grep ink

@@ -1,0 +1,2 @@
+trabalho@persona-prog:/opt/man$ sudo chmod +x localexec 
+trabalho@persona-prog:/opt/man$ sudo touch criarfile
