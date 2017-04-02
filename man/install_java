@@ -1,13 +1,15 @@
-sudo apt-get purge openjdk*
+echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list
+echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" >> /etc/apt/sources.list
+apt-get purge openjdk*
 
-sudo add-apt-repository ppa:webupd8team/java
+add-apt-repository ppa:webupd8team/java
 
-sudo apt-get update
+apt-get update
 
-sudo apt-get install oracle-java6-installer
+apt-get install oracle-java6-installer
 
-sudo apt-get install oracle-java7-installer
+apt-get install oracle-java7-installer
 
-sudo apt-get install oracle-java8-installer
+apt-get install oracle-java8-installer
 
-sudo apt-get install oracle-java8-set-default
+apt-get install oracle-java8-set-default
