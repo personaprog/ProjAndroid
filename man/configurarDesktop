@@ -1,4 +1,0 @@
-1) apt-get install dconf-editor
-2) dconf-editor”,  
-      org->gnome->desktop->background
-         Ativar: show-desktop-icons
